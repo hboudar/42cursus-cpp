@@ -1,5 +1,4 @@
 NAME	=	megaphone
-
 SRCS	=	megaphone.cpp
 OBJS	=	$(SRCS:.cpp=.opp)
 

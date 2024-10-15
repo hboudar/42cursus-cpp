@@ -6,7 +6,7 @@
 /*   By: hboudar <hboudar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 15:57:38 by hboudar           #+#    #+#             */
-/*   Updated: 2024/10/10 17:14:07 by hboudar          ###   ########.fr       */
+/*   Updated: 2024/10/13 18:30:17 by hboudar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,11 @@ int main(int argc, char *argv[])
                 std::cout << (char)toupper(argv[1][i]);
                 i++;
             }
-            (argv[2] != NULL) && (std::cout << " ");
             argv++;
         }
-        std::cout << "\n";
+        std::cout << std::endl;
     }
     else
-        std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *\n";
+        std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *" << std::endl;
     return (0);
 }

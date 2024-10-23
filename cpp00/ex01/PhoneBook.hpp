@@ -6,7 +6,7 @@
 /*   By: hboudar <hboudar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 17:13:03 by hboudar           #+#    #+#             */
-/*   Updated: 2024/10/23 12:26:53 by hboudar          ###   ########.fr       */
+/*   Updated: 2024/10/23 12:28:07 by hboudar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,5 @@
 class Phonebook {
 
     public:
-        Contact user[1];
+        Contact user[8];
 };

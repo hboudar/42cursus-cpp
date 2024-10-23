@@ -1,7 +1,8 @@
-NAME	=
+NAME	=	phonebook
 
-SRCS	=
+SRCS	=	main.cpp
 OBJS	=	$(SRCS:.cpp=.opp)
+headers	=	PhoneBook.hpp Contact.hpp
 
 CC		=	c++
 CFLAGS	=	-Wall -Wextra -Werror -std=c++98

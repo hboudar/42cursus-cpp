@@ -6,7 +6,7 @@
 /*   By: hboudar <hboudar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 17:16:46 by hboudar           #+#    #+#             */
-/*   Updated: 2024/10/23 22:32:17 by hboudar          ###   ########.fr       */
+/*   Updated: 2024/10/24 12:52:52 by hboudar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # include <iostream>
 
 class Contact {
-    
+
     private:
         std::string first_name;
         std::string last_name;

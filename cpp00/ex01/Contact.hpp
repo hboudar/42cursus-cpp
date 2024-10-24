@@ -6,7 +6,7 @@
 /*   By: hboudar <hboudar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 17:16:46 by hboudar           #+#    #+#             */
-/*   Updated: 2024/10/23 18:57:52 by hboudar          ###   ########.fr       */
+/*   Updated: 2024/10/23 22:32:17 by hboudar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,11 @@ class Contact {
     public:
 
         // Setters :
-        void    set_firstname(std::string str) { first_name = str; }
-        void    set_lastname(std::string str) { last_name = str; }
-        void    set_nickname(std::string str) { nickname = str; }
-        void    set_phonenumber(std::string str) { phone_number = str; }
-        void    set_darketsecret(std::string str) { darkest_secret = str; }
+        void    set_firstname(std::string input) { first_name = input; }
+        void    set_lastname(std::string input) { last_name = input; }
+        void    set_nickname(std::string input) { nickname = input; }
+        void    set_phonenumber(std::string input) { phone_number = input; }
+        void    set_darketsecret(std::string input) { darkest_secret = input; }
 
         // Getters :
         std::string get_firstname() { return (first_name); }
